@@ -7,6 +7,45 @@ let employee  = {
     dept:"Engineering"
 }
 
+// object literal
+let employee1  = {
+    id: 1000,
+    name : "mike",
+    salary:2343,
+    email:'mike12@gmail.com',
+    dept:"Engineering"
+}
+
+// create object via object constructor 
+let employee2  =  new Object({
+    id: 1002,
+    name : "jonn",
+    salary:89343,
+    email:'john@gmail.com',
+    dept:"Engineering"
+});
+
+// object vi Employee constructor
+function Employee (id, name, salary, dept) {
+    this.id = id;
+    this.name= name;
+    this.salary = salary;
+    this.dept = dept;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(employee);
 
 // access properties from object via (.) operation
@@ -31,23 +70,6 @@ Object.keys(employee).forEach( ( key )=> {
    console.log(` Key : ${key}  and value : ${employee[key]}`);
 })
 
-// object literal
-let employee1  = {
-    id: 1000,
-    name : "mike",
-    salary:2343,
-    email:'mike12@gmail.com',
-    dept:"Engineering"
-}
-
-// create object via object constructor 
-let employee2  =  new Object({
-    id: 1002,
-    name : "jonn",
-    salary:89343,
-    email:'john@gmail.com',
-    dept:"Engineering"
-});
 
 
 console.log(employee1);
