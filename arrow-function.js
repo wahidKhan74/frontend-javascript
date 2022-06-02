@@ -28,9 +28,3 @@ showMessage3("johnsmith",20);
 
 showMessage4("johnsmith",showMessage3);
 
-
-let aa = [10,20,30];
-
-aa.forEach((a)=> {
-    console.log(a);
-})
